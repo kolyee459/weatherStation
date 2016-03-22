@@ -12,6 +12,9 @@
 #define LIGHTWEIGHT 1
 
 // Libraries
+// Added #ifndef _SPARKFUNHTU21D_ #define _SPARKFUNHTU21D_ #endif
+// in SparkFunHTU21D.h to solve the htu21d class already added error messsage
+#define _SPARKFUNHTU21D_
 
 #include <SPI.h>
 #include <Adafruit_BLE_UART.h>
