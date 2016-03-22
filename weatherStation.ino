@@ -89,6 +89,7 @@ void loop() {
   // Handle REST calls
   if (status == ACI_EVT_CONNECTED) {
     rest.handle(BTLEserial);
+    Serial.println("bonjour");
 
   }
  }
